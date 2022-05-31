@@ -12,7 +12,7 @@ async function getCat() {
     const BASE_URL = 'https://api.flickr.com/services/rest?method=flickr.photos.search';
     const API_KEY = 'e0172323e6629835589bbbed7d3327e4';
     try {
-        const response = await fetch(`${BASE_URL}&api_key=${API_KEY}&text=cute%20cat&sort=relevance&content_type=1&format=json&nojsoncallback=1`);
+        const response = await fetch(`${BASE_URL}&api_key=${API_KEY}&text=kitten&sort=relevance&content_type=1&format=json&nojsoncallback=1`);
 
         const data = await response.json();
 
